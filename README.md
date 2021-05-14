@@ -13,7 +13,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 _Que cosas necesitas instalar para poder ejecutar el proyecto._
 
-Para empezar necesitas tener instaldo:
+Para empezar necesitas tener instalado:
 * [Composer](https://getcomposer.org/download/)
 * [PHP con la versión 7.3 o superior.](https://www.php.net/downloads)
 
@@ -21,12 +21,15 @@ Un IDE o un editor de código:
 * [PhpStorm](https://www.jetbrains.com/phpstorm/)
 * [VS Code](https://code.visualstudio.com/Download)
 
+Base de datos (DB):
+* [XAMPP](https://www.apachefriends.org/es/index.html) en Windows o [MAMP](https://www.mamp.info/en/downloads/) en MacOS.
+
 ### Instalación 🔧
 
 _Una vez descargado el proyecto lo que tendrá que hacer es seguir esta serie de pasos para poder desplegarlo:_
 1. Abrir el proyecto con el IDE o editor y crear un archivo **.env**.
 2. Copiar el contenido de **.env.example** dentro del archivo creado anteriormente: **.env**.
-3. Despues nos vamos al terminal de nuestro IDE o editor y ejecutamos el siguiente comando:
+3. Después nos vamos al terminal de nuestro IDE o editor y ejecutamos el siguiente comando:
 
 ```
 php artisan key:generate
@@ -38,7 +41,7 @@ php artisan key:generate
 npm install
 ```
 
-5. por último:
+5. Por último:
 
 ```
 composer install
@@ -78,7 +81,7 @@ Nos aparecera algo así:
 Starting Laravel development server: http://127.0.0.1:8000
 PHP 8.0.3 Development Server (http://127.0.0.1:8000) started
 ```
-Una vez nos salga este mensaje ne la consola, podemos pinchar [**AQUÍ**](http://127.0.0.1:8000) o en cualquiera de los dos http://127.0.0.1:8000 que nos sale en la consola.
+Una vez nos salga este mensaje en la consola, podemos pinchar [**AQUÍ**](http://127.0.0.1:8000) o en cualquiera de los dos http://127.0.0.1:8000 que nos sale en la consola.
 
 ## Construido con 🛠️
 
@@ -97,13 +100,13 @@ _Ahora toca mencionar a los autores de este proyecto_
 GitHub:
 * **Paula Valdes** - *Desarrolladora Web FullStack* - [Pau-V](https://github.com/Pau-v)
 * **Juan Carlos** - *Desarrollador Web FullStack* - [jcsedeno](https://github.com/jcsedeno)
-* **Arturo Menendez** - *Desarrollador Web FullStack* - [D-Arturo](https://github.com/D-Arturo)
+* **Arturo Menéndez** - *Desarrollador Web FullStack* - [D-Arturo](https://github.com/D-Arturo)
 * **Pablo Vázquez** - *Desarrollador Web FullStack* - [PablinVaz](https://github.com/PablinVaz)
 
 LinkedIn:
 * [**Paula Valdes**](https://github.com/Pau-v)
 * [**Juan Carlos**](https://www.linkedin.com/in/jcsedeno/)
-* [**Arturo Menendez**](https://www.linkedin.com/in/davidarturomf/)
+* [**Arturo Menéndez**](https://www.linkedin.com/in/davidarturomf/)
 * [**Pablo Vázquez**](https://www.linkedin.com/in/pablinvaz)
 
 ## Expresiones de Gratitud 🎁
