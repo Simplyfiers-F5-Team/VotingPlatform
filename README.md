@@ -24,22 +24,21 @@ Un IDE o un editor de código:
 ### Instalación 🔧
 
 _Una vez descargado el proyecto lo que tendrá que hacer es seguir esta serie de pasos para poder desplegarlo:_
-* Abrir el proyecto con el IDE o editor y crear un archivo **.env**.
-* Copiar el contenido de **.env.example** dentro del archivo creado anteriormente: **.env**.
-
-Despues nos vamos al terminal de nuestro IDE o editor y ejecutamos el siguiente comando:
+1. Abrir el proyecto con el IDE o editor y crear un archivo **.env**.
+2. Copiar el contenido de **.env.example** dentro del archivo creado anteriormente: **.env**.
+3. Despues nos vamos al terminal de nuestro IDE o editor y ejecutamos el siguiente comando:
 
 ```
 php artisan key:generate
 ```
 
-Una vez que a acabado la generación de la clave, escribimos los siguientes comandos:
+4. Una vez que a acabado la generación de la clave, escribimos los siguientes comandos:
 
 ```
 npm install
 ```
 
-y por último:
+5. por último:
 
 ```
 composer install
@@ -67,36 +66,48 @@ Da un ejemplo
 
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+_Para poder hacer el deploy necesitamos escribir en la consola de nuestro IDE o Editor el siguiente comando:_
 
+```
+php artisan serve
+```
+Nos aparecera algo así:
+
+```
+➜  VotingPlatform ✗ php artisan serve       
+Starting Laravel development server: http://127.0.0.1:8000
+PHP 8.0.3 Development Server (http://127.0.0.1:8000) started
+```
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_Herramientas utilizadas para crear la creación de este proyecto_
+* [PHP]() - Usado para generar RSS
+* [Composer]() - Manejador de dependencias
+* [Laravel]() - El framework web usado
+* [PhpUnit]()
+* [Vuejs]()
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
 ## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+¡Si este proyecto te a ayudado por favor haz nos lo saber en los comentarios!
 
-## Wiki 📖
+## Autores :_per
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+_Ahora toca mencionar a los autores de este proyecto_
 
-## Versionado 📌
+GitHub:
+* **Paula Valdes** - *Desarrolladora Web FullStack* - [Pau-V](https://github.com/Pau-v)
+* **Juan Carlos** - *Desarrolladora Web FullStack* - [jcsedeno](https://github.com/jcsedeno)
+* **Arturo Menendez** - *Desarrolladora Web FullStack* - [D-Arturo](https://github.com/D-Arturo)
+* **Pablo Vázquez** - *Desarrolladora Web FullStack* - [PablinVaz](https://github.com/PablinVaz)
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+LinkedIn:
+* [**Paula Valdes**](https://github.com/Pau-v)
+* [**Juan Carlos**](https://github.com/jcsedeno)
+* [**Arturo Menendez**](https://github.com/D-Arturo)
+* [**Pablo Vázquez**](https://github.com/PablinVaz)
 
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
