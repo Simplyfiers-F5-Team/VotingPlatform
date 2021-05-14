@@ -15,32 +15,34 @@ _Que cosas necesitas instalar para poder ejecutar el proyecto_
 
 Para empezar necesitas tener instaldo:
 * [PHP con la versión 7.3 o superior.](https://www.php.net/downloads)
+* [Composer](https://getcomposer.org/download/)
 
 Un IDE o un editor de código: 
 * [PhpStorm](https://www.jetbrains.com/phpstorm/)
 * [VS Code](https://code.visualstudio.com/Download)
 
-```
-Da un ejemplo
-```
-
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Una vez descargado el proyecto lo que tendrá que hacer es seguir esta serie de pasos para poder desplegarlo:_
+* Abrir el proyecto con el IDE o editor y crear un archivo **.env**.
+* Copiar el contenido de **.env.example** dentro del archivo creado anteriormente: **.env**.
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
+Despues nos vamos al terminal de nuestro IDE o editor y ejecutamos el siguiente comando:
 
 ```
-hasta finalizar
+php artisan key:generate
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+Una vez que a acabado la generación de la clave, escribimos los siguientes comandos:
+
+```
+npm install
+```
+y por último:
+
+```
+composer install
+```
 
 ## Ejecutando las pruebas ⚙️
 
