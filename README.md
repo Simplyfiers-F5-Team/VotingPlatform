@@ -78,35 +78,32 @@ Nos aparecera algo así:
 Starting Laravel development server: http://127.0.0.1:8000
 PHP 8.0.3 Development Server (http://127.0.0.1:8000) started
 ```
+Una vez nos salga este mensaje ne la consola, podemos pinchar [**AQUÍ**](http://127.0.0.1:8000) o en cualquiera de los dos http://127.0.0.1:8000 que nos sale en la consola.
+
 ## Construido con 🛠️
 
 _Herramientas utilizadas para crear la creación de este proyecto_
-* [PHP]() - Usado para generar RSS
-* [Composer]() - Manejador de dependencias
-* [Laravel]() - El framework web usado
-* [PhpUnit]()
-* [Vuejs]()
+* [PHP]() - 
+* [Composer]() - 
+* [Laravel]() - 
+* [PhpUnit]() -
+* [Vuejs]() -
 
-
-## Contribuyendo 🖇️
-
-¡Si este proyecto te a ayudado por favor haz nos lo saber en los comentarios!
-
-## Autores :_per
+## Autores
 
 _Ahora toca mencionar a los autores de este proyecto_
 
 GitHub:
 * **Paula Valdes** - *Desarrolladora Web FullStack* - [Pau-V](https://github.com/Pau-v)
-* **Juan Carlos** - *Desarrolladora Web FullStack* - [jcsedeno](https://github.com/jcsedeno)
-* **Arturo Menendez** - *Desarrolladora Web FullStack* - [D-Arturo](https://github.com/D-Arturo)
-* **Pablo Vázquez** - *Desarrolladora Web FullStack* - [PablinVaz](https://github.com/PablinVaz)
+* **Juan Carlos** - *Desarrollador Web FullStack* - [jcsedeno](https://github.com/jcsedeno)
+* **Arturo Menendez** - *Desarrollador Web FullStack* - [D-Arturo](https://github.com/D-Arturo)
+* **Pablo Vázquez** - *Desarrollador Web FullStack* - [PablinVaz](https://github.com/PablinVaz)
 
 LinkedIn:
 * [**Paula Valdes**](https://github.com/Pau-v)
-* [**Juan Carlos**](https://github.com/jcsedeno)
-* [**Arturo Menendez**](https://github.com/D-Arturo)
-* [**Pablo Vázquez**](https://github.com/PablinVaz)
+* [**Juan Carlos**](https://www.linkedin.com/in/jcsedeno/)
+* [**Arturo Menendez**](https://www.linkedin.com/in/davidarturomf/)
+* [**Pablo Vázquez**](https://www.linkedin.com/in/pablinvaz)
 
 
 ## Licencia 📄
@@ -118,9 +115,6 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 * Comenta a otros sobre este proyecto 📢
 * Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
 * Da las gracias públicamente 🤓.
-* etc.
-
-
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+Hecho con ❤️ por el equipo de Simplyfiers durante el BootCamp de [Factoria F5](https://www.rompemosloscodigos.org/) 😊
