@@ -1,6 +1,6 @@
 # Voting Platform
 
-_Plataforma de Votación realizada comoo proyecto pedagógico para el BootCamp de Factoria F5_
+_Plataforma de Votación realizada comoo proyecto pedagógico para el BootCamp de Factoria F5._
 
 ## Comenzando 🚀
 
@@ -11,11 +11,11 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas instalar para poder ejecutar el proyecto_
+_Que cosas necesitas instalar para poder ejecutar el proyecto._
 
 Para empezar necesitas tener instaldo:
-* [PHP con la versión 7.3 o superior.](https://www.php.net/downloads)
 * [Composer](https://getcomposer.org/download/)
+* [PHP con la versión 7.3 o superior.](https://www.php.net/downloads)
 
 Un IDE o un editor de código: 
 * [PhpStorm](https://www.jetbrains.com/phpstorm/)
@@ -38,6 +38,7 @@ Una vez que a acabado la generación de la clave, escribimos los siguientes coma
 ```
 npm install
 ```
+
 y por último:
 
 ```
