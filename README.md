@@ -47,6 +47,20 @@ npm install
 composer install
 ```
 
+Hasta ahora solo tiene la parte visual preparada, para que la base de datos funcione tiene que guardar el proyecto en la carpeta de **HTDOCS**. Que dependiendo de la DB que haya instalado esta en una ubicación diferente:
+
+* En XAMPP la ubicación esta en:
+> C:\xampp\htdocs
+
+* En MAMP la ubicacion esta en:
+> Aplicaciones - MAMP - htdocs
+
+Una vez hecho esto tendrá que ir a la consola de su IDE o Editor y escribir el siguiente comando para que le cree las tablas en la base de datos:
+
+```
+php artisan migrate
+```
+
 ## Ejecutando las pruebas ⚙️
 
 _Explica como ejecutar las pruebas automatizadas para este sistema_
@@ -85,13 +99,14 @@ Una vez nos salga este mensaje en la consola, podemos pinchar [**AQUÍ**](http:/
 
 ## Construido con 🛠️
 
-_Estas son las herramientas utilizadas para la creación de este proyecto_
-* [PHP ^7.4](https://www.php.net/downloads) - Lenguaje de programación
-* [Composer ^2](https://getcomposer.org/download/) - Gestión de paquetes
-* [PhpStorm](https://www.jetbrains.com/phpstorm/) - IDE
-* [Laravel 8](https://laravel.com/docs/8.x) - Framework de Back
-* [PhpUnit ^9](https://phpunit.de/getting-started/phpunit-9.html) - Testing
-* [Vuejs 3](https://es.vuejs.org/) - Framework de Front
+_Estas son las herramientas utilizadas para la creación de este proyecto._
+* [PHP ^7.4](https://www.php.net/downloads) - Lenguaje de programación.
+* [Composer ^2](https://getcomposer.org/download/) - Gestión de paquetes.
+* [XAMPP](https://www.apachefriends.org/es/index.html) en Windows o [MAMP](https://www.mamp.info/en/downloads/) en MacOS - Gestión de base de datos.
+* [PhpStorm](https://www.jetbrains.com/phpstorm/) - IDE.
+* [Laravel 8](https://laravel.com/docs/8.x) - Framework de Back.
+* [PhpUnit ^9](https://phpunit.de/getting-started/phpunit-9.html) - Testing.
+* [Vuejs 3](https://es.vuejs.org/) - Framework de Front.
 
 ## Autores
 
