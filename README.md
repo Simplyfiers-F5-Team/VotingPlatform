@@ -82,12 +82,13 @@ Una vez nos salga este mensaje ne la consola, podemos pinchar [**AQUÍ**](http:/
 
 ## Construido con 🛠️
 
-_Herramientas utilizadas para crear la creación de este proyecto_
-* [PHP]() - 
-* [Composer]() - 
-* [Laravel]() - 
-* [PhpUnit]() -
-* [Vuejs]() -
+_Estas son las herramientas utilizadas para la creación de este proyecto_
+* [PHP ^7.4](https://www.php.net/downloads) - Lenguaje de programación
+* [Composer ^2](https://getcomposer.org/download/) - Gestión de paquetes
+* [PhpStorm](https://www.jetbrains.com/phpstorm/) - IDE
+* [Laravel 8](https://laravel.com/docs/8.x) - Framework de Back
+* [PhpUnit ^9](https://phpunit.de/getting-started/phpunit-9.html) - Testing
+* [Vuejs 3](https://es.vuejs.org/) - Framework de Front
 
 ## Autores
 
@@ -104,11 +105,6 @@ LinkedIn:
 * [**Juan Carlos**](https://www.linkedin.com/in/jcsedeno/)
 * [**Arturo Menendez**](https://www.linkedin.com/in/davidarturomf/)
 * [**Pablo Vázquez**](https://www.linkedin.com/in/pablinvaz)
-
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 
