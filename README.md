@@ -1,6 +1,6 @@
 # Voting Platform
 
-_Plataforma de Votación realizada comoo proyecto pedagógico para el BootCamp de Factoria F5._
+_Plataforma de Votación realizada como proyecto pedagógico para el BootCamp de Factoria F5._
 
 ## Comenzando 🚀
 
