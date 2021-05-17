@@ -61,26 +61,6 @@ Una vez hecho esto tendrá que ir a la consola de su IDE o Editor y escribir el 
 php artisan migrate
 ```
 
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
 ## Despliegue 📦
 
 _Para poder hacer el deploy necesitamos escribir en la consola de nuestro IDE o Editor el siguiente comando:_
@@ -119,7 +99,7 @@ GitHub:
 * **Pablo Vázquez** - *Desarrollador Web FullStack* - [PablinVaz](https://github.com/PablinVaz)
 
 LinkedIn:
-* [**Paula Valdes**](https://github.com/Pau-v)
+
 * [**Juan Carlos**](https://www.linkedin.com/in/jcsedeno/)
 * [**Arturo Menéndez**](https://www.linkedin.com/in/davidarturomf/)
 * [**Pablo Vázquez**](https://www.linkedin.com/in/pablinvaz)
