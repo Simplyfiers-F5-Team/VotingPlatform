@@ -1,22 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Voting platform</title>
 </head>
-<body>
+<body class="bgMorado textWhite">
+<main>
+    <h1><img class="logobasetis" src="./img/Basetis_Logotipo.svg" alt="Logo Basetis"></h1>
+    <h2>Bienvenido a la <br/> plataforma de votación</h2>
+    <section>
+        <form action="" method="post" class="px-3">
+            <fieldset class="borderColorRosa p-3 d-grid gap-2">
+                <label for="employee" class="fontFam h4">Escoge tu próxima formación</label>
+                <input type="text" name="employee" id="employee" class="" placeholder="Identificación del trabajador">
+                <input type="submit" class="btn bgRosa fontFam textWhite" value="INGRESAR">
+            </fieldset>
+        </form>
+    </section>
+    <section class="pt-5">
+        <form action="" method="post" class="px-3">
+            <fieldset class="borderColorRosa p-2 d-grid gap-2">
+                <p class="fontFam h4">¿Eres formador?</p>
+                <a href="{{ route('home') }}" class="btn bgRosa fontFam textWhite">LOGIN</a>
+            </fieldset>
+        </form>
+    </section>
+</main>
 
-    <h1 class="logo">basetis</h1>
-    <h3>Bienvenido a la Plataforma de Votacion</h3>
-
-    <form action="">
-        <label>Escoge tu próxima Formación</label>
-            <input type="text" name="IdTrabajador" value="Identificación del Trabajador">
-        <input type="submit" value="Ingresar">
-    </form>
-
-    <a href="{{ route('home') }}">Eres formador</a>
 </body>
 </html>

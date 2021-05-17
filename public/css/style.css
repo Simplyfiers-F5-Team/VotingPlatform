@@ -1,4 +1,4 @@
-@import url(../Roboto/Roboto-Thin.ttf); 
+@import url(./Roboto/Roboto-Thin.ttf);
 
 :root{
     --morado: #32284A;
@@ -8,15 +8,20 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
-.colorWhite{
+.textWhite{
     color:white;
+}
+.textRosa{
+    color: var(--rosa);
+}
+.textMorado{
+    color: var(--morado);
 }
 .bgRosa{
     background-color: var(--rosa);
 }
-body{
+.bgMorado{
     background-color: var(--morado);
-    color: white;
 }
 main{
     text-align: center;
