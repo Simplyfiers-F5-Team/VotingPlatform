@@ -32,20 +32,21 @@ _Una vez descargado el proyecto lo que tendrá que hacer es seguir esta serie de
 3. Después nos vamos al terminal de nuestro IDE o editor y ejecutamos el siguiente comando:
 
 ```
-php artisan key:generate
-```
-
-4. Una vez que a acabado la generación de la clave, escribimos los siguientes comandos:
-
-```
 npm install
 ```
 
-5. Por último:
+4. Una vez que ha acabado, escribimos los siguientes comandos:
 
 ```
 composer install
 ```
+
+5. Por último, generamos la clave que nos falta en el archivo **.env**:
+
+```
+php artisan key:generate
+```
+
 
 Hasta ahora solo tiene la parte visual preparada, para que la base de datos funcione tiene que guardar el proyecto en la carpeta de **HTDOCS**. Que dependiendo de la DB que haya instalado esta en una ubicación diferente:
 
