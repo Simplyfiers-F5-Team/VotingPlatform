@@ -11,7 +11,7 @@
 <body class="bgMorado textWhite">
 <main>
     <h1><img class="logobasetis" src="./img/Basetis_Logotipo.svg" alt="Logo Basetis"></h1>
-    <h2>Bienvenido a la <br/> plataforma de votación</h2>
+    <h2 class="fontFam">Bienvenido a la <br/> plataforma de votación</h2>
     <section>
         <form action="" method="post" class="px-3">
             <fieldset class="borderColorRosa p-3 d-grid gap-2">
