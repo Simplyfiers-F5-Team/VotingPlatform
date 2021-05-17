@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Voting platform</title>
 </head>
-<body class="bgMorado textWhite">
+<body class="bgMorado textWhite h-100">
 <main>
     <h1><img class="logobasetis" src="./img/Basetis_Logotipo.svg" alt="Logo Basetis"></h1>
     <h2 class="fontFam">Bienvenido a la <br/> plataforma de votación</h2>
