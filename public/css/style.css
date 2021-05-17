@@ -1,0 +1,35 @@
+@import url(../Roboto/Roboto-Thin.ttf); 
+
+:root{
+    --morado: #32284A;
+    --rosa: #FF656C;
+}
+.fontFam{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.colorWhite{
+    color:white;
+}
+.bgRosa{
+    background-color: var(--rosa);
+}
+body{
+    background-color: var(--morado);
+    color: white;
+}
+main{
+    text-align: center;
+}
+.logobasetis{
+    padding-top: 25px;
+    width: 300px;
+    height: 100px;
+}
+h2{
+    margin: 70px 0;
+    font-weight: 100;
+}
+.borderColorRosa{
+    border: 1px solid #FF656C;
+}
