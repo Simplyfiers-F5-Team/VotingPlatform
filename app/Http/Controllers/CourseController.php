@@ -28,8 +28,9 @@ class CourseController extends Controller
         $course = new Course();
         $course->name = request('name');
         $course->description = request('description');
-
         $course->save();
+
+        return redirect('/home')->with('mssg', 'Course added!');
     }
 
     public function destroy($id)

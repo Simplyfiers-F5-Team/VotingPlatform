@@ -14,7 +14,11 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('Welcome admin') }}
+
+                    <a href="{{ route('courses.create') }}" class="btn bgRosa fontFam textWhite">Create course</a>
+                    <a href="{{ route('courses.index') }}" class="btn bgRosa fontFam textWhite">Courses batch</a>
+                    <p>{{ session('mssg') }}</p>
                 </div>
             </div>
         </div>
