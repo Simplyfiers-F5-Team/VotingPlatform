@@ -37,6 +37,8 @@ class CourseController extends Controller
     {
         $course = Course::findOrFail($id);
         $course->delete();
+
+        return redirect('/courses');
     }
 
 }

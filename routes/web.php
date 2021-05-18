@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,10 +18,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/courses/create', [App\Http\Controllers\CourseController::class, 'create'])->name('courses.create');
 Route::post('/courses', [App\Http\Controllers\CourseController::class, 'store'])->name('courses.store');
 Route::get('/courses', [App\Http\Controllers\CourseController::class, 'index'])->name('courses.index');
+Route::delete('/courses/{id}', [App\Http\Controllers\CourseController::class, 'destroy'])->name('courses.destroy');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
