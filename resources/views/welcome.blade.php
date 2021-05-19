@@ -13,7 +13,7 @@
     <h1 class="pb-4"><img class="logobasetis" src="./img/Basetis_Logotipo.svg" alt="Logo Basetis"></h1>
     <h2 class="fontFam">Bienvenido a la <br/> plataforma de votación</h2>
     <section class="pb-4">
-        <form action="" method="post" class="pt-3 px-3">
+        <form action="/vote" method="get" class="pt-3 px-3">
             <fieldset class="borderColorRosa p-3 d-grid gap-2">
                 <label for="employee" class="fontFam h4">Escoge tu próxima formación</label>
                 <input type="text" name="employee" id="employee" class=" btn-lg btn-block" placeholder="Identificación del trabajador">
