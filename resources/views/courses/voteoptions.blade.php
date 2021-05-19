@@ -7,8 +7,8 @@
     <div class="card-body">
         <label for="">{{ $course->name }}</label>
         <p>{{ $course->description }}</p>
-        <input type="radio" id="vote" name="vote" value="{{ $course->name }}">
-        <label for="vote">Vote</label>
+        <input type="radio" id="election" name="election" value="{{ $course->name }}">
+        <label for="election">Vote</label>
     </div>
     @endforeach
     <input type="submit" value="Votar">
