@@ -41,4 +41,10 @@ class CourseController extends Controller
         return redirect('/courses');
     }
 
+    public function voteform()
+    {
+        $courses = Course::orderBy('name')->get();
+        return view('courses.voteoptions', ['courses' => $courses]);
+    }
+
 }

@@ -23,6 +23,8 @@ Route::get('/courses/create', [App\Http\Controllers\CourseController::class, 'cr
 Route::post('/courses', [App\Http\Controllers\CourseController::class, 'store'])->name('courses.store');
 Route::get('/courses', [App\Http\Controllers\CourseController::class, 'index'])->name('courses.index');
 Route::delete('/courses/{id}', [App\Http\Controllers\CourseController::class, 'destroy'])->name('courses.destroy');
+Route::get('/vote', [App\Http\Controllers\CourseController::class, 'voteform'])->name('courses.voteoptions');
+
 
 Auth::routes();
 
