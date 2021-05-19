@@ -6,6 +6,7 @@
     @foreach($votes as $vote)
     <div class="card-body">
         <h4>{{ $vote->election }}</h4>
+        <h5>{{ $vote->total }}</h5>
         <p>-</p>
     </div>
     @endforeach
