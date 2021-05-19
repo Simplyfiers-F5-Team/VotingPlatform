@@ -4,8 +4,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+            <div class="card bgMorado borderColorRosa">
+                <div class="card-header borderColorRosa">{{ __('Dashboard') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))

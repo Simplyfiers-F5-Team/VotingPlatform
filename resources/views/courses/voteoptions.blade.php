@@ -5,7 +5,7 @@
 <form action="{{ route('votes.store') }}" class="wrapper card" method="POST">
     @csrf
     @foreach($courses as $course)
-    <div class="card-body">
+    <div class="card-body bgMorado">
         <label for="course">{{ $course->name }}</label>
         <p>{{ $course->description }}</p>
         <input type="radio" id="election" name="election" value="{{ $course->name }}">
