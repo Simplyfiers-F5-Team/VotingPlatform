@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\DB;
 
 class VoteController extends Controller
 {
-    public function store()
+    public function store(Request $request)
     {
         $vote = new Vote();
-        $vote->election = request('election');
+        $vote->election = $request->election;
         $vote->save();
 
         return redirect('/voted');

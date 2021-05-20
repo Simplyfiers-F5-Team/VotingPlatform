@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\VoteController;  
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,18 +21,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::get('/courses/create', [App\Http\Controllers\CourseController::class, 'create'])->name('courses.create');
-Route::post('/courses', [App\Http\Controllers\CourseController::class, 'store'])->name('courses.store');
-Route::get('/courses', [App\Http\Controllers\CourseController::class, 'index'])->name('courses.index');
-Route::delete('/courses/{id}', [App\Http\Controllers\CourseController::class, 'destroy'])->name('courses.destroy');
-
-Route::get('/vote', [App\Http\Controllers\CourseController::class, 'voteform'])->name('courses.voteoptions');
-
-Route::post('/vote', [App\Http\Controllers\VoteController::class, 'store'])->name('votes.store');
-Route::get('/voted', [App\Http\Controllers\VoteController::class, 'index'])->name('votes.index');
-
-
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+Route::get('/courses/create', [CourseController::class, 'create'])->name('courses.create');
+Route::post('/courses', [CourseController::class, 'store'])->name('courses.store');
+Route::get('/courses', [CourseController::class, 'index'])->name('courses.index');
+Route::get('courses/{course}/edit', [CourseController::class, 'edit'])->name('courses.edit');
+Route::put('courses/{course}', [CourseController::class, 'update'])->name('courses.update');
+
+Route::delete('/courses/{course}', [CourseController::class, 'destroy'])->name('courses.destroy');
+
+Route::get('/vote', [CourseController::class, 'voteform'])->name('courses.voteoptions');
+
+Route::post('/vote', [VoteController::class, 'store'])->name('votes.store');
+Route::get('/voted', [VoteController::class, 'index'])->name('votes.index');
+

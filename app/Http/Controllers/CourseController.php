@@ -23,22 +23,35 @@ class CourseController extends Controller
         return view ('courses.create');
     }
 
-    public function store()
+    public function store(Request $request)
     {
         $course = new Course();
-        $course->name = request('name');
-        $course->description = request('description');
+        $course->name = $request->name;
+        $course->description = $request->description;
         $course->save();
 
         return redirect('/home')->with('mssg', 'Course added!');
     }
 
-    public function destroy($id)
+    public function edit(Course $course)
     {
-        $course = Course::findOrFail($id);
+        return view('courses.edit', compact('course'));
+    }
+
+    public function update(Request $request, Course $course)
+    {
+        $course->name = $request->name;
+        $course->description = $request->description;
+        $course->save();
+
+        return redirect('/home')->with('mssg', 'Course updated!');
+    }
+
+    public function destroy(Course $course)
+    {
         $course->delete();
 
-        return redirect('/courses');
+        return redirect()->route('courses.index');
     }
 
     public function voteform()
