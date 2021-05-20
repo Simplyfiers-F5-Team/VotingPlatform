@@ -1,0 +1,41 @@
+0000000000000000000000000000000000000000 b0a639134a6810cafc3a6067253309d0f1465a2e Juan Carlos <sedenojc@gmail.com> 1621251608 +0200	initial pull
+b0a639134a6810cafc3a6067253309d0f1465a2e 1b87315fdb35f27855879de24b9465d1d1d4d230 Juan Carlos <sedenojc@gmail.com> 1621254682 +0200	pull https://github.com/Simplyfiers-F5-Team/VotingPlatform.git: Fast-forward
+1b87315fdb35f27855879de24b9465d1d1d4d230 1b87315fdb35f27855879de24b9465d1d1d4d230 Juan Carlos <sedenojc@gmail.com> 1621258088 +0200	checkout: moving from master to Jcs
+1b87315fdb35f27855879de24b9465d1d1d4d230 d01303ccb1def5f6f5e13a7718a7648643cc5f23 Juan Carlos <sedenojc@gmail.com> 1621258179 +0200	commit: Se añade ruta Cursos
+d01303ccb1def5f6f5e13a7718a7648643cc5f23 d01303ccb1def5f6f5e13a7718a7648643cc5f23 Juan Carlos <sedenojc@gmail.com> 1621258750 +0200	checkout: moving from Jcs to JuanCarlos
+d01303ccb1def5f6f5e13a7718a7648643cc5f23 d01303ccb1def5f6f5e13a7718a7648643cc5f23 Juan Carlos <sedenojc@gmail.com> 1621258914 +0200	checkout: moving from JuanCarlos to JuanCarlos
+d01303ccb1def5f6f5e13a7718a7648643cc5f23 d01303ccb1def5f6f5e13a7718a7648643cc5f23 Juan Carlos <sedenojc@gmail.com> 1621259242 +0200	reset: moving to HEAD
+d01303ccb1def5f6f5e13a7718a7648643cc5f23 d01303ccb1def5f6f5e13a7718a7648643cc5f23 Juan Carlos <sedenojc@gmail.com> 1621265717 +0200	checkout: moving from JuanCarlos to JuanCarlos
+d01303ccb1def5f6f5e13a7718a7648643cc5f23 d01303ccb1def5f6f5e13a7718a7648643cc5f23 Juan Carlos <sedenojc@gmail.com> 1621265870 +0200	delete_branch: JC [d01303ccb1def5f6f5e13a7718a7648643cc5f23]
+d01303ccb1def5f6f5e13a7718a7648643cc5f23 d01303ccb1def5f6f5e13a7718a7648643cc5f23 Juan Carlos <sedenojc@gmail.com> 1621265872 +0200	delete_branch: Jcs [d01303ccb1def5f6f5e13a7718a7648643cc5f23]
+d01303ccb1def5f6f5e13a7718a7648643cc5f23 967518c7975c94fba852059f07dbd731ee14065c Juan Carlos <sedenojc@gmail.com> 1621265892 +0200	commit (amend): Se añade ruta Cursos
+967518c7975c94fba852059f07dbd731ee14065c 09f9f5c4e025cf63ff12a05d497b4887e540ef40 Juan Carlos <sedenojc@gmail.com> 1621265912 +0200	commit (amend): Se añade ruta Cursos
+09f9f5c4e025cf63ff12a05d497b4887e540ef40 cabab04f4c0b596370ed78685df154bc4f10a77c Juan Carlos <sedenojc@gmail.com> 1621321070 +0200	checkout: moving from JuanCarlos to develop
+cabab04f4c0b596370ed78685df154bc4f10a77c 09f9f5c4e025cf63ff12a05d497b4887e540ef40 Juan Carlos <sedenojc@gmail.com> 1621321248 +0200	checkout: moving from develop to JuanCarlos
+09f9f5c4e025cf63ff12a05d497b4887e540ef40 cabab04f4c0b596370ed78685df154bc4f10a77c Juan Carlos <sedenojc@gmail.com> 1621321287 +0200	checkout: moving from JuanCarlos to develop
+cabab04f4c0b596370ed78685df154bc4f10a77c 2e61b2c1c11f68c1a3b7021c8a656d1460336946 Juan Carlos <sedenojc@gmail.com> 1621321301 +0200	branch: Reset to 2e61b2c1c11f68c1a3b7021c8a656d1460336946
+2e61b2c1c11f68c1a3b7021c8a656d1460336946 09f9f5c4e025cf63ff12a05d497b4887e540ef40 Juan Carlos <sedenojc@gmail.com> 1621321365 +0200	checkout: moving from develop to JuanCarlos
+09f9f5c4e025cf63ff12a05d497b4887e540ef40 2e61b2c1c11f68c1a3b7021c8a656d1460336946 Juan Carlos <sedenojc@gmail.com> 1621338680 +0200	checkout: moving from JuanCarlos to develop
+2e61b2c1c11f68c1a3b7021c8a656d1460336946 f659ea5e11c4776df3a91f7e79432b0dd5b28a2c Juan Carlos <sedenojc@gmail.com> 1621338913 +0200	Fast forward branch develop to branch origin/develop
+f659ea5e11c4776df3a91f7e79432b0dd5b28a2c f332a462a9f7e344d3183c4c3eb4adc2ce9ca353 Juan Carlos <sedenojc@gmail.com> 1621343396 +0200	Fast forward branch develop to branch origin/develop
+f332a462a9f7e344d3183c4c3eb4adc2ce9ca353 5259789d49f356fa3d778a33fd8c61c683a9fbc6 Juan Carlos <sedenojc@gmail.com> 1621344124 +0200	Fast forward branch develop to branch origin/develop
+5259789d49f356fa3d778a33fd8c61c683a9fbc6 5259789d49f356fa3d778a33fd8c61c683a9fbc6 Juan Carlos <sedenojc@gmail.com> 1621344328 +0200	discard: [affcd588e90ae4e1bb85e0240d723d21c0dd6c17]
+5259789d49f356fa3d778a33fd8c61c683a9fbc6 09f9f5c4e025cf63ff12a05d497b4887e540ef40 Juan Carlos <sedenojc@gmail.com> 1621344336 +0200	checkout: moving from develop to JuanCarlos
+0000000000000000000000000000000000000000 09f9f5c4e025cf63ff12a05d497b4887e540ef40 Juan Carlos <sedenojc@gmail.com> 1621344381 +0200	checkout: moving from JuanCarlos to Desarrollo
+09f9f5c4e025cf63ff12a05d497b4887e540ef40 5259789d49f356fa3d778a33fd8c61c683a9fbc6 Juan Carlos <sedenojc@gmail.com> 1621344876 +0200	checkout: moving from Desarrollo to develop
+5259789d49f356fa3d778a33fd8c61c683a9fbc6 68e1bc23e3e317808eaa121b147b0ccaf220c931 Juan Carlos <sedenojc@gmail.com> 1621344883 +0200	Fast forward branch develop to branch origin/develop
+68e1bc23e3e317808eaa121b147b0ccaf220c931 09f9f5c4e025cf63ff12a05d497b4887e540ef40 Juan Carlos <sedenojc@gmail.com> 1621406743 +0200	checkout: moving from develop to Desarrollo
+09f9f5c4e025cf63ff12a05d497b4887e540ef40 09f9f5c4e025cf63ff12a05d497b4887e540ef40 Juan Carlos <sedenojc@gmail.com> 1621413489 +0200	discard: [72077e2f0cbb6b4736124e5b9440de17e474798f]
+09f9f5c4e025cf63ff12a05d497b4887e540ef40 1b87315fdb35f27855879de24b9465d1d1d4d230 Juan Carlos <sedenojc@gmail.com> 1621413498 +0200	checkout: moving from Desarrollo to master
+1b87315fdb35f27855879de24b9465d1d1d4d230 782481d41b968b0aaa92ca4d19dadc1ae1a39bee Juan Carlos <sedenojc@gmail.com> 1621413593 +0200	checkout: moving from master to votingFormPrueba
+782481d41b968b0aaa92ca4d19dadc1ae1a39bee 782481d41b968b0aaa92ca4d19dadc1ae1a39bee Juan Carlos <sedenojc@gmail.com> 1621430793 +0200	discard: [d48fbac4ba0282bc4f55764fc4dee679473ee169]
+782481d41b968b0aaa92ca4d19dadc1ae1a39bee 09f9f5c4e025cf63ff12a05d497b4887e540ef40 Juan Carlos <sedenojc@gmail.com> 1621430804 +0200	checkout: moving from votingFormPrueba to Desarrollo
+09f9f5c4e025cf63ff12a05d497b4887e540ef40 782481d41b968b0aaa92ca4d19dadc1ae1a39bee Juan Carlos <sedenojc@gmail.com> 1621435969 +0200	checkout: moving from Desarrollo to votingFormPrueba
+782481d41b968b0aaa92ca4d19dadc1ae1a39bee c73c8e973bf1cd88c18fa857f621c0194782d786 Juan Carlos <sedenojc@gmail.com> 1621435972 +0200	Fast forward branch votingFormPrueba to branch origin/votingFormPrueba
+c73c8e973bf1cd88c18fa857f621c0194782d786 09f9f5c4e025cf63ff12a05d497b4887e540ef40 Juan Carlos <sedenojc@gmail.com> 1621436104 +0200	checkout: moving from votingFormPrueba to Desarrollo
+09f9f5c4e025cf63ff12a05d497b4887e540ef40 c73c8e973bf1cd88c18fa857f621c0194782d786 Juan Carlos <sedenojc@gmail.com> 1621436448 +0200	checkout: moving from Desarrollo to votingFormPrueba
+c73c8e973bf1cd88c18fa857f621c0194782d786 09f9f5c4e025cf63ff12a05d497b4887e540ef40 Juan Carlos <sedenojc@gmail.com> 1621436528 +0200	checkout: moving from votingFormPrueba to Desarrollo
+09f9f5c4e025cf63ff12a05d497b4887e540ef40 c73c8e973bf1cd88c18fa857f621c0194782d786 Juan Carlos <sedenojc@gmail.com> 1621436735 +0200	checkout: moving from Desarrollo to votingFormPrueba
+c73c8e973bf1cd88c18fa857f621c0194782d786 c73c8e973bf1cd88c18fa857f621c0194782d786 Juan Carlos <sedenojc@gmail.com> 1621445207 +0200	discard: [75b7a094691d4d369514721865f8580ab93270f8]
+c73c8e973bf1cd88c18fa857f621c0194782d786 09f9f5c4e025cf63ff12a05d497b4887e540ef40 Juan Carlos <sedenojc@gmail.com> 1621445211 +0200	checkout: moving from votingFormPrueba to Desarrollo
+09f9f5c4e025cf63ff12a05d497b4887e540ef40 c73c8e973bf1cd88c18fa857f621c0194782d786 Juan Carlos <sedenojc@gmail.com> 1621445419 +0200	checkout: moving from Desarrollo to votingFormPrueba

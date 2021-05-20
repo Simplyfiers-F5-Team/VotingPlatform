@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="wrapper">
+    <div class="wrapper ">
         <h1>Create a Course</h1>
         <form action="{{ route('courses.store') }}" method="POST">
             @csrf
@@ -9,9 +9,9 @@
             <input type="text" name="name" id="name" required>
             <label for="description">Short description:</label>
             <textarea name="description" id="description" cols="30" rows="10"></textarea>
-            <input type="submit" value="Add course">
+            <input type="submit" value="Add course" class="btn bgRosa fontFam textWhite">
         </form>
-        <a href="{{ route('home') }}">Back</a>
+        <a href="{{ route('home') }}" class="btn bgRosa fontFam textWhite">Back</a>
     </div>
 @endsection
 

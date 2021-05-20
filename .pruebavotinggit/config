@@ -1,0 +1,21 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Simplyfiers-F5-Team/VotingPlatform.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	pushurl = https://github.com/Simplyfiers-F5-Team/VotingPlatform.git
+[branch "JuanCarlos"]
+[branch "develop"]
+	remote = origin
+	merge = refs/heads/develop
+[branch "Desarrollo"]
+	remote = origin
+	merge = refs/heads/JuanCarlos
+[branch "votingFormPrueba"]
+	remote = origin
+	merge = refs/heads/votingFormPrueba
