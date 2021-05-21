@@ -9,16 +9,17 @@
       <div class="card-body borderColorRosa m-3">
         <h4>{{ $course->name }}</h4>
         <p>{{ $course->description }}</p>
-        <form action="{{ route('courses.edit', $course) }}">
-          @csrf 
-          <input class="btn bgRosa text-white" type="submit" value="Edit">
-      </form>
-  
-        <form action="{{ route('courses.destroy', $course) }}" method="POST">
-          @csrf 
-          @method('DELETE')
-          <input class="btn bgRosa text-white" type="submit" value="Delete">
-      </form>
+        <div class="d-flex justify-content-center">
+            <form action="{{ route('courses.edit', $course) }}">
+                @csrf
+                <input class="btn bgRosa text-white mx-3" type="submit" value="Edit">
+            </form>
+            <form action="{{ route('courses.destroy', $course) }}" method="POST">
+                @csrf
+                @method('DELETE')
+                <input class="btn bgRosa text-white" type="submit" value="Delete">
+            </form>
+        </div>
       </div>
     @endforeach
   </div>
