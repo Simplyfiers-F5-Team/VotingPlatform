@@ -17,8 +17,8 @@
         </button>
     </div>
     @enderror
-    <div class="container card bgMorado borderColorRosa">
-        <div class="mt-3">
+    <div class="card bgMorado borderColorRosa">
+        <div class="pt-3 card-header borderColorRosa">
             <h2 class="h1 m-0">Edit a Course</h2>
         </div>
         <div class="card-body">
