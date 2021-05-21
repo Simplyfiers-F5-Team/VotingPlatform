@@ -18,7 +18,7 @@
     <a href="/" class="btn bgRosa fontFam textWhite mx-3">Finalizar</a>
         @auth
         <form action="{{ route('votes.destroy') }}" method="POST">
-            @csrf {{--Cross-site request forgeries are a type of malicious exploit whereby unauthorized commands are performed on behalf of an authenticated user. --}}
+            @csrf
             @method('DELETE')
             <input type="submit" value="Reset Voting" class="btn bgRosa fontFam textWhite mx-3">
         </form>
