@@ -41,5 +41,5 @@ h2{
     font-weight: 100;
 }
 .borderColorRosa{
-    border: 1px solid #FF656C;
+    border: 1px solid #FF656C !important;
 }

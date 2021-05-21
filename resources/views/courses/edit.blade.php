@@ -31,7 +31,7 @@
                 </div>
                 <div class="my-4">
                     <label for="description">Short description:</label>
-                    <textarea name="description" class="form-control" id="description" cols="15" rows="10">{{old('description', $course->description)}}</textarea>
+                    <textarea name="description" class="form-control" id="description" cols="20" rows="5">{{old('description', $course->description)}}</textarea>
                 </div>
                     <input type="submit" value="Update course" class="btn bgRosa fontFam textWhite mb-4">
             </form>

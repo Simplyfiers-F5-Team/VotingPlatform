@@ -32,7 +32,7 @@
 
                 <div class="my-4">
                     <label for="description" class="h4">Short description:</label>
-                    <textarea name="description" id="description" cols="30" rows="10" class="form-control">{{old('description')}}</textarea>
+                    <textarea name="description" id="description" cols="20" rows="5" class="form-control">{{old('description')}}</textarea>
                 </div>
                 <input type="submit" value="Add course" class=" mb-4 btn bgRosa fontFam textWhite">
             </form>
