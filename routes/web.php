@@ -30,11 +30,11 @@ Route::post('/courses', [CourseController::class, 'store'])->name('courses.store
 Route::get('/courses', [CourseController::class, 'index'])->name('courses.index');
 Route::get('courses/{course}/edit', [CourseController::class, 'edit'])->name('courses.edit');
 Route::put('courses/{course}', [CourseController::class, 'update'])->name('courses.update');
-
 Route::delete('/courses/{course}', [CourseController::class, 'destroy'])->name('courses.destroy');
 
 Route::get('/vote', [CourseController::class, 'voteform'])->name('courses.voteoptions');
 
 Route::post('/vote', [VoteController::class, 'store'])->name('votes.store');
 Route::get('/voted', [VoteController::class, 'index'])->name('votes.index');
+Route::delete('/vote', [VoteController::class, 'destroy'])->name('votes.destroy');
 

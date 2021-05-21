@@ -29,4 +29,10 @@ class VoteController extends Controller
         //$votes = array_count_values($query);
         return view('votes.index', ['votes' => $votes]);
     }
+
+    public function destroy()
+    {
+        $votes = DB::table('votes')->delete();
+        return redirect('/voted');
+    }
 }
