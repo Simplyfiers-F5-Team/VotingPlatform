@@ -33,7 +33,7 @@
                     <label for="description">Short description:</label>
                     <textarea name="description" class="form-control" id="description" cols="15" rows="10">{{old('description', $course->description)}}</textarea>
                 </div>
-                    <input type="submit" value="Update course" class="btn bgRosa fontFam textWhite">
+                    <input type="submit" value="Update course" class="btn bgRosa fontFam textWhite mb-4">
             </form>
             <a href="{{ route('home') }}" class="btn bgRosa fontFam textWhite">Back</a>
     </div>
