@@ -13,14 +13,13 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card bgMorado borderColorRosa">
-                    <div class="card-header borderColorRosa">{{ __('Dashboard') }}</div>
+                    <div class="card-header borderColorRosa">{{ __('Admin Dashboard') }}</div>
                     <div class="card-body">
                         @if (session('status'))
                             <div class="alert alert-success" role="alert">
                                 {{ session('status') }}
                             </div>
                         @endif
-                        {{ __('Welcome admin') }}
                         <div class="my-3">
                              <a href="{{ route('courses.create') }}" class="btn bgRosa fontFam textWhite">Create course</a>
                         </div>

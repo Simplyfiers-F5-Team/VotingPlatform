@@ -15,7 +15,7 @@
 </div>
 <div class="d-flex justify-content-center">
     
-    <a href="/" class="btn bgRosa fontFam textWhite mx-3">Finalizar</a>
+    <a href="/" class="btn bgRosa fontFam textWhite mx-3">Resume</a>
         @auth
         <form action="{{ route('votes.destroy') }}" method="POST">
             @csrf

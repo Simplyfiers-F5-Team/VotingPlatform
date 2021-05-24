@@ -10,6 +10,10 @@ class VoteController extends Controller
 {
     public function store(Request $request)
     {
+        $request->validate([
+            'election' => 'required',
+        ]);
+
         $vote = new Vote();
         $vote->election = $request->election;
         $vote->save();
