@@ -8,6 +8,11 @@ use App\Http\Requests\CourseCreateRequest;
 
 class CourseController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     public function index()
     {
         $courses = Course::orderBy('name')->get();
@@ -21,7 +26,7 @@ class CourseController extends Controller
 
     public function create()
     {
-        return view ('courses.create');
+        return view('courses.create');
     }
 
     public function store(CourseCreateRequest $request)
@@ -60,5 +65,4 @@ class CourseController extends Controller
         $courses = Course::orderBy('name')->get();
         return view('courses.voteoptions', ['courses' => $courses]);
     }
-
 }
