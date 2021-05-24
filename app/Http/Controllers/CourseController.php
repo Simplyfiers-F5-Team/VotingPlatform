@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Course;
+use App\Http\Requests\CourseCreateRequest;
 
 class CourseController extends Controller
 {
@@ -23,13 +24,8 @@ class CourseController extends Controller
         return view ('courses.create');
     }
 
-    public function store(Request $request)
+    public function store(CourseCreateRequest $request)
     {
-        $request->validate([
-            'name' => 'required',
-            'description' => 'required',
-        ]);
-
         $course = new Course();
         $course->name = $request->name;
         $course->description = $request->description;
@@ -43,13 +39,8 @@ class CourseController extends Controller
         return view('courses.edit', compact('course'));
     }
 
-    public function update(Request $request, Course $course)
+    public function update(CourseCreateRequest $request, Course $course)
     {
-        $request->validate([
-            'name' => 'required',
-            'description' => 'required',
-        ]);
-
         $course->name = $request->name;
         $course->description = $request->description;
         $course->save();
