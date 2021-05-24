@@ -46,8 +46,8 @@
                                     {{ Auth::user()->name }}
                                 </a>
 
-                                <div class="dropdown-menu bgMorado dropdown-menu-right borderColorRosa" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item text-white" href="{{ route('logout') }}"
+                                <div class="dropdown-menu bgMorado dropdown-menu-right borderColorRosa hoverRosa" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item text-white hoverRosa" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}

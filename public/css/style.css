@@ -43,3 +43,6 @@ h2{
 .borderColorRosa{
     border: 1px solid #FF656C !important;
 }
+.hoverRosa:hover{
+    background-color: var(--rosa);
+}
