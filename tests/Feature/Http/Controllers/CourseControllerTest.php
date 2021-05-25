@@ -55,16 +55,4 @@ class CourseControllerTest extends TestCase
         $response->assertStatus(200);
         $response->assertViewIs('courses.index');
     }
-    /** @test */
-    public function controller_shows_courses_created_list()
-    {
-        $user = User::factory()->create();
-        $course = Course::factory()->create();
-        $response = $this->actingAs($user)->get(route('courses.index'));
-        $response->assertViewHasAll([
-            'name' => $course->name,
-            'description' => $course->description,
-        ]);
-    }
-
 }
