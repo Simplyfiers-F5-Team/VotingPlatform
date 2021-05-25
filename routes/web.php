@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CourseController;
-use App\Http\Controllers\VoteController;  
+use App\Http\Controllers\VoteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,12 +25,12 @@ Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home')->middleware('auth');
 
-Route::get('/courses/create', [CourseController::class, 'create'])->name('courses.create');
-Route::post('/courses', [CourseController::class, 'store'])->name('courses.store');
-Route::get('/courses', [CourseController::class, 'index'])->name('courses.index');
-Route::get('courses/{course}/edit', [CourseController::class, 'edit'])->name('courses.edit');
-Route::put('courses/{course}', [CourseController::class, 'update'])->name('courses.update');
-Route::delete('/courses/{course}', [CourseController::class, 'destroy'])->name('courses.destroy');
+Route::get('/courses/create', [CourseController::class, 'create'])->name('courses.create')->middleware('auth');
+Route::post('/courses', [CourseController::class, 'store'])->name('courses.store')->middleware('auth');
+Route::get('/courses', [CourseController::class, 'index'])->name('courses.index')->middleware('auth');
+Route::get('courses/{course}/edit', [CourseController::class, 'edit'])->name('courses.edit')->middleware('auth');
+Route::put('courses/{course}', [CourseController::class, 'update'])->name('courses.update')->middleware('auth');
+Route::delete('/courses/{course}', [CourseController::class, 'destroy'])->name('courses.destroy')->middleware('auth');
 
 Route::get('/vote', [CourseController::class, 'voteform'])->name('courses.voteoptions');
 

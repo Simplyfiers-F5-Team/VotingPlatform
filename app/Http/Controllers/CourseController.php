@@ -8,11 +8,6 @@ use App\Http\Requests\CourseCreateRequest;
 
 class CourseController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-    
     public function index()
     {
         $courses = Course::orderBy('name')->get();
