@@ -55,4 +55,12 @@ class CourseControllerTest extends TestCase
         $response->assertStatus(200);
         $response->assertViewIs('courses.index');
     }
+    /** @test */
+    public function controller_displays_the_form_to_vote_for_a_new_course()
+    {
+        $user = User::factory()->create();
+        $response = $this->actingAs($user)->get(route('courses.voteoptions'));
+        $response->assertStatus(200);
+        $response->assertViewIs('courses.voteoptions');
+    }
 }
