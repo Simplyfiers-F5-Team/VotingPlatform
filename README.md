@@ -117,7 +117,7 @@ _Estas son las herramientas utilizadas para la creación de este proyecto._
 * [Vs Code](https://code.visualstudio.com/Download) - Editor de código.
 * [Laravel 8](https://laravel.com/docs/8.x) - Framework de Back.
 * [PhpUnit ^9](https://phpunit.de/getting-started/phpunit-9.html) - Testing.
-* [Vuejs 3](https://es.vuejs.org/) - Framework de Front.
+* [Blade](https://laravel.com/docs/8.x/blade) - Motor de plantillas.
 * [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - Framework de Front.
 
 ## Autores
