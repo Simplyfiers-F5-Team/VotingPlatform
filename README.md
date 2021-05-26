@@ -95,6 +95,18 @@ php artisan test
 
 ![Testing en Vs Code 2](https://github.com/Simplyfiers-F5-Team/VotingPlatform/blob/main/public/img/Testing_1.png)
 
+En PhpStorm es un poco 'más dificil' o facil, depende de como se mire:
+
+* Tenemos que irnos al borde superior donde aparece el simbolo de play ▶️ .
+* Al hacer click en ese boton nos saltara una nueva ventana con el nombre: **Run/Debug Configurations**.
+* Bajamos hasta donde pone **Interpreter**.
+* Configuramos el **Interpreter** con la versión de PHP que tengamos instalada.
+* Por último, **APPLY** y **RUN** (YA TENEMOS EJECUTADOS LOS TEST!!! 👏 👏 👏 )
+
+![Test en PhpStorn](https://user-images.githubusercontent.com/57219639/119729519-0ccacb00-be75-11eb-9af8-cef5ae2f5ba8.png)
+
+
+
 ## Construido con 🛠️
 
 _Estas son las herramientas utilizadas para la creación de este proyecto._
