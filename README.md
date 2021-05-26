@@ -114,6 +114,7 @@ _Estas son las herramientas utilizadas para la creación de este proyecto._
 * [Composer ^2](https://getcomposer.org/download/) - Gestión de paquetes.
 * [XAMPP](https://www.apachefriends.org/es/index.html) en Windows o [MAMP](https://www.mamp.info/en/downloads/) en MacOS - Gestión de base de datos.
 * [PhpStorm](https://www.jetbrains.com/phpstorm/) - IDE.
+* [Vs Code](https://code.visualstudio.com/Download) - Editor de código.
 * [Laravel 8](https://laravel.com/docs/8.x) - Framework de Back.
 * [PhpUnit ^9](https://phpunit.de/getting-started/phpunit-9.html) - Testing.
 * [Vuejs 3](https://es.vuejs.org/) - Framework de Front.
