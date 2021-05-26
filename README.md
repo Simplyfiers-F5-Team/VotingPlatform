@@ -78,6 +78,23 @@ PHP 8.0.3 Development Server (http://127.0.0.1:8000) started
 ```
 Una vez nos salga este mensaje en la consola, podemos pinchar [**AQUÍ**](http://127.0.0.1:8000) o en cualquiera de los dos http://127.0.0.1:8000 que nos sale en la consola.
 
+## Testing 🔑
+
+_Para realizar los test nos vamos a la consola en VS Code y escribimos:_
+
+```
+vendor/bin/phpunit
+```
+![Testing en Vs Code 1](https://github.com/Simplyfiers-F5-Team/VotingPlatform/blob/main/public/img/Testing.png)
+
+También se puede hacer con otro comando:
+
+```
+php artisan test
+```
+
+![Testing en Vs Code 2](https://github.com/Simplyfiers-F5-Team/VotingPlatform/blob/main/public/img/Testing_1.png)
+
 ## Construido con 🛠️
 
 _Estas son las herramientas utilizadas para la creación de este proyecto._
